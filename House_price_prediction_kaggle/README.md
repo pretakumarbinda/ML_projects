@@ -16,26 +16,11 @@ This project predicts house prices in Bengaluru using **Machine Learning** techn
 
 ---
 
-## 📂 **Project Structure**
-```
-House_price_prediction_kaggle/
-│
-├── bengaluru_house_price_prediction.ipynb  # Main Jupyter Notebook with full code
-├── Bengaluru_House_Data.csv                # Dataset used for training
-├── banglore_home_prices_model.pickle       # Trained ML model
-├── columns.json                            # Column metadata for prediction
-├── Flask_server/                           # Flask app for deployment
-│     ├── app.py                            # Flask application script
-│     └── templates/                        # HTML files for UI
-└── README.md                               # Project documentation
-```
-
 ---
 
 ## ⚙️ **Technologies Used**
 - **Python** (pandas, numpy, scikit-learn, matplotlib)
 - **Machine Learning** (Linear Regression)
-- **Flask** (for model deployment)
 - **Pickle** (for model saving and loading)
 
 ---
@@ -50,9 +35,6 @@ House_price_prediction_kaggle/
 3. **Model Building**
    - Linear Regression model
    - Performance evaluation using R² score and cross-validation
-4. **Model Deployment**
-   - Flask API for serving predictions
-   - HTML front-end for user input
 
 ---
 
@@ -69,16 +51,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run Flask server:
-```bash
-cd Flask_server
-python app.py
-```
-
-Access the app at:
-```
-http://127.0.0.1:5000
-```
 
 ### 2️⃣ **Predict Price**
 Enter:
